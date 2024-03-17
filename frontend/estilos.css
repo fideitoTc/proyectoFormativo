@@ -1,0 +1,175 @@
+/*LoGin principal*/
+
+body {
+    background-image: url('/imagenes/fondoLogin1.jpg');
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center; 
+
+    display: grid;
+    place-items: center; /* Centra el contenido del cuerpo */
+    height: 100vh; /* Establece la altura del cuerpo al 100% del viewport height */
+    margin: 0;
+  }
+
+.imagen_login001 {
+    width: 100px;
+    height: 100px;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+}
+
+
+.grid-container1 {
+  display: grid;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  height: 100px; /* Establece la altura del contenedor al 100% del viewport height */
+  background-color: rgba(255, 255, 255, 0.738);
+}
+
+
+.section1 {
+  grid-column: 1 / 2; 
+  border: 1px solid black;
+  width: 190px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.section2 {
+  grid-column: 2 / 3; 
+  border: 1px solid black;
+  width: 190px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.section3 {
+  grid-column: 1 / 2;
+  border: 1px solid black;
+  width: 190px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.section4 {
+  grid-column: 2 / 3;
+  border: 1px solid black;
+  width: 190px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: subgrid;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.738);
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(245, 245, 220, 0.852);
+  text-align: center;
+  padding: 2px 10px;
+  font-size: 30px;
+}
+
+.imagen_login001 {
+  width: 100px;
+  height: 100px;
+align-items: center;
+}
+
+.button {
+background: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+
+/*admin login*/
+.ingresar-boton {
+  background: gray;
+  border: 1px solid black;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.738);
+  padding: 90px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 100px  rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;  
+
+}
+
+label {
+  display: block;
+}
+
+input{
+  width: 100%;
+  padding: 8px;
+}
+
+input[type="submiy"] {
+  width: 100%;
+  padding: 10px;
+  background-color: grey;
+  color: black;
+  
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+  border: none;
+}
+
+.login-image {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px; /* ajusta el tamaño según sea necesario */
+}
